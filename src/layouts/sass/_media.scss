@@ -1,0 +1,22 @@
+@media (max-width: 640px) {
+    .Header {
+        padding: 10px 0;
+        a:nth-child(4) {
+            display: none;
+        }
+    }
+    .HeaderGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+    .heroGroup {
+        padding: 100px 20px;
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .hero {
+        p {
+            font-size: 24px;
+        }
+    }
+}

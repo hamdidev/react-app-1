@@ -1,0 +1,34 @@
+.hero {
+    background-image: url('../assits/img/wallpaper3.jpg');
+    height: 920px;
+    background-size: cover;
+    background-position: center;
+    p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    .heroGroup {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 150px 50px;
+        text-align: center;
+    }
+    h1 {
+        margin: 0;
+        color: white;
+        font-size: 60px;
+        line-height: 1.3;
+    }
+    a {
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 9px 20px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        outline: none;
+    }
+}

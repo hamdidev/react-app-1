@@ -1,0 +1,28 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 40px 0;
+    z-index: 99;
+    .HeaderGroup {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        align-items: center;
+        justify-items: center;
+    }
+    a {
+        color: white;
+        font-weight: 700;
+    }
+    button {
+        padding: 8px 20px;
+        font-size: 20px;
+        background-color: #56ccf2;
+        border: none;
+        font-weight: 700;
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+    }
+}
